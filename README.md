@@ -30,7 +30,3 @@
 ![GitHub Logo](4.png)
 
 
-
-server disini : 
-
-    https://github.com/renosyah/android_upload_images
