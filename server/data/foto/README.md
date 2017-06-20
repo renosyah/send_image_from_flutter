@@ -1,0 +1,1 @@
+# disini file gambar dan file txt akan disimpan
