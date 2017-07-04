@@ -43,11 +43,10 @@ func file_gambar(res http.ResponseWriter, req *http.Request) {
 		"Stats": true,
 	}
 	json.NewEncoder(res).Encode(data)
-	fmt.Println("telah diakses")
 
 }
 
-const letterBytes = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+const letterBytes = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 
 func RandStringBytes(n int) string {
 	b := make([]byte, n)
@@ -58,7 +57,7 @@ func RandStringBytes(n int) string {
 }
 
 func main() {
-
+	fmt.Println("running server now...")
 	http.HandleFunc("/file", file_gambar)
 	http.ListenAndServe(":8080", nil)
 }
