@@ -43,7 +43,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     var httpclient = createHttpClient();
     var data = {"nama":"default","gambar":image_encode};
-    var send = await httpclient.post("http://192.168.23.1:8080/file",body: data);
+    var send = await httpclient.post("http://192.168.23.1:8080/file",body: data);// dont forget to change its ip
     Map respon = JSON.decode(send.body);
 
     bool status = respon["Stats"];
