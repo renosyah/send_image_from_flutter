@@ -1,28 +1,28 @@
 # send image from flutter app
 
 
-* membuka aplikasi dan menekan tombol add image
+* open app and click add image, it will open new window to select the image you want to preview
 
 
 
 ![GitHub Logo](1.png)
 
 
-* memilih gambar
+* choose your image
 
 
 
 ![GitHub Logo](2.png)
 
 
-* gambar akan ditampilkan sebagai preview
 
+* it will be show as preview before send to server
 
 
 ![GitHub Logo](3.png)
 
 
-* mengirim gambar langsung dari aplikasi ke server dan gambar telah berada di server
+* send the image from flutter and then you see, the image is on the server
 
 
 
